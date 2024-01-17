@@ -1,13 +1,25 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.heading{
+    font-size: 35px;
+    font-family: Roboto;
+}
+.paragraph{
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.themeWord {
+    background-color: #f0f0f0;
+    padding: 5px; 
+    display: inline-block; /* Ensure the background color only covers the word */
+  }
+
+  
+button{
+    background-color: blue;
+    color: white;
+    border: 0;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: Roboto;
 }
